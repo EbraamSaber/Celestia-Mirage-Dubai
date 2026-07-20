@@ -1,0 +1,23 @@
+.cars-page { padding-bottom: 5rem; }
+.cars-controls { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:1rem; margin-bottom:3rem; }
+.driver-toggle { display:flex; align-items:center; gap:0.7rem; cursor:pointer; font-size:0.85rem; color:var(--text-muted); }
+.driver-toggle input { display:none; }
+.toggle-track { position:relative; width:44px; height:24px; background:var(--bg-3); border:1px solid var(--glass-border); border-radius:100px; transition:var(--transition); }
+.driver-toggle input:checked + .toggle-track { background:var(--gold-dark); border-color:var(--gold); }
+.toggle-thumb { position:absolute; top:3px; left:3px; width:16px; height:16px; background:var(--text-muted); border-radius:50%; transition:var(--transition); }
+.driver-toggle input:checked + .toggle-track .toggle-thumb { left:23px; background:var(--black); }
+.cars-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:2rem; }
+.car-card { background:var(--bg-2); border:1px solid rgba(212,175,55,0.1); border-radius:var(--radius-xl); overflow:hidden; cursor:pointer; transition:var(--transition); }
+.car-card:hover { border-color:var(--gold); box-shadow:var(--shadow-gold); transform:translateY(-6px); }
+.car-img { position:relative; height:230px; overflow:hidden; }
+.car-img img { width:100%; height:100%; object-fit:cover; transition:transform 0.6s; }
+.car-card:hover .car-img img { transform:scale(1.07); }
+.car-tag { position:absolute; top:1rem; left:1rem; z-index:1; }
+.car-body { padding:1.5rem; }
+.car-brand { font-size:0.7rem; font-weight:700; letter-spacing:0.2em; text-transform:uppercase; color:var(--gold); margin-bottom:0.3rem; }
+.car-model { font-family:var(--font-head); font-size:1.3rem; color:var(--ivory); margin-bottom:0.8rem; }
+.car-specs { display:flex; flex-wrap:wrap; gap:0.6rem; margin-bottom:1rem; }
+.car-specs span { font-size:0.78rem; color:var(--text-muted); display:flex; align-items:center; gap:0.3rem; background:rgba(255,255,255,0.04); padding:0.3rem 0.6rem; border-radius:100px; }
+.car-footer { display:flex; justify-content:space-between; align-items:flex-end; padding-top:1rem; border-top:1px solid rgba(255,255,255,0.05); }
+@media (max-width:1024px) { .cars-grid { grid-template-columns:repeat(2,1fr); } }
+@media (max-width:640px) { .cars-grid { grid-template-columns:1fr; } }

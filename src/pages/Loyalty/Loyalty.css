@@ -1,0 +1,24 @@
+.loyalty-page{padding-bottom:5rem}
+.tiers-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem}
+.tier-card{padding:2rem;display:flex;flex-direction:column;align-items:center;gap:0.8rem;text-align:center;position:relative}
+.tier-card--royal{border-color:var(--gold);box-shadow:0 0 40px rgba(212,175,55,0.2)}
+.tier-best-badge{position:absolute;top:-0.8rem;left:50%;transform:translateX(-50%);white-space:nowrap}
+.tier-icon{font-size:3rem}
+.tier-name{font-family:var(--font-head);font-size:1.5rem;font-weight:700}
+.tier-points{font-size:0.78rem;color:var(--text-muted);letter-spacing:0.05em;margin-bottom:0.5rem}
+.tier-perks{display:flex;flex-direction:column;gap:0.5rem;width:100%;text-align:left}
+.tier-perks li{display:flex;align-items:flex-start;gap:0.5rem;font-size:0.82rem;color:var(--text-muted)}
+.perk-check{color:var(--gold);flex-shrink:0;margin-top:0.15rem}
+.earn-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.2rem}
+.earn-card{padding:1.5rem;text-align:center;display:flex;flex-direction:column;gap:0.5rem}
+.earn-icon{font-size:2rem}
+.earn-action{font-weight:600;color:var(--ivory);font-size:0.9rem}
+.earn-rate{font-size:0.8rem;color:var(--gold)}
+.redeem-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
+.redeem-card{padding:2rem;text-align:center;display:flex;flex-direction:column;align-items:center;gap:0.7rem}
+.redeem-icon{font-size:2.5rem}
+.redeem-card h4{font-family:var(--font-head);font-size:1.1rem;color:var(--ivory)}
+.redeem-pts{font-family:var(--font-head);font-size:1.3rem;font-weight:700}
+.redeem-val{font-size:0.8rem;color:var(--text-muted)}
+@media(max-width:1024px){.tiers-grid{grid-template-columns:repeat(2,1fr)}.earn-grid{grid-template-columns:repeat(2,1fr)}.redeem-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:640px){.tiers-grid{grid-template-columns:1fr}.earn-grid{grid-template-columns:repeat(2,1fr)}.redeem-grid{grid-template-columns:1fr}}
