@@ -4,7 +4,7 @@ import { FiArrowRight, FiWifi, FiDroplet, FiSun, FiMaximize } from 'react-icons/
 import { GiCrown, GiWaterDrop, GiChefToque } from 'react-icons/gi'
 import { MdSpa, MdPool, MdBalcony } from 'react-icons/md'
 import './Suites.css'
-
+// ID's
 const SUITES = [
   {
     id:1, name:'Royal Suite', tag:'Most Exclusive', price:12500,
