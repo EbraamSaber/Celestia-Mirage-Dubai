@@ -45,38 +45,38 @@ The application is fully multilingual (i18n-ready), animated with Framer Motion 
 
 ## 🛠️ Technologies Used
 
-### Core
-- **[React 19](https://react.dev/)** — Component-based UI library
-- **[Vite 8](https://vite.dev/)** — Next-generation frontend build tool with HMR
+### Cor
+- **[React 19](https://react.dev/)** — Component-based UI library.
+- **[Vite 8](https://vite.dev/)** — Next-generation frontend build tool with HMR.
 
 ### Routing & State
-- **[React Router DOM v7](https://reactrouter.com/)** — Client-side routing and navigation
+- **[React Router DOM v7](https://reactrouter.com/)** — Client-side routing and navigation.
 
 ### Animations
-- **[Framer Motion](https://www.framer.com/motion/)** — Declarative animations and transitions
-- **[GSAP 3](https://gsap.com/)** — High-performance JavaScript animations
+- **[Framer Motion](https://www.framer.com/motion/)** — Declarative animations and transitions.
+- **[GSAP 3](https://gsap.com/)** — High-performance JavaScript animations.
 
 ### Forms & Validation
-- **[React Hook Form](https://react-hook-form.com/)** — Performant, flexible form management
-- **[Zod](https://zod.dev/)** — TypeScript-first schema validation
+- **[React Hook Form](https://react-hook-form.com/)** — Performant, flexible form management.
+- **[Zod](https://zod.dev/)** — TypeScript-first schema validation.
 
 ### Internationalization
-- **[i18next](https://www.i18next.com/)** + **[react-i18next](https://react.i18next.com/)** — Full multilingual support
+- **[i18next](https://www.i18next.com/)** + **[react-i18next](https://react.i18next.com/)** — Full multilingual support.
 
 ### Data & Charts
-- **[Recharts](https://recharts.org/)** — Composable chart library for the admin dashboard
-- **[Axios](https://axios-http.com/)** — Promise-based HTTP client
+- **[Recharts](https://recharts.org/)** — Composable chart library for the admin dashboard.
+- **[Axios](https://axios-http.com/)** — Promise-based HTTP client.
 
 ### UI & Media
-- **[Swiper](https://swiperjs.com/)** — Touch-friendly slider/carousel component
-- **[React Icons](https://react-icons.github.io/react-icons/)** — Icon library
-- **[React Helmet Async](https://github.com/staylor/react-helmet-async)** — Dynamic `<head>` management for SEO
+- **[Swiper](https://swiperjs.com/)** — Touch-friendly slider/carousel component.
+- **[React Icons](https://react-icons.github.io/react-icons/)** — Icon library.
+- **[React Helmet Async](https://github.com/staylor/react-helmet-async)** — Dynamic `<head>` management for SEO.
 
 ### Real-time
-- **[Socket.IO Client](https://socket.io/)** — WebSocket integration for live features
+- **[Socket.IO Client](https://socket.io/)** — WebSocket integration for live features.
 
 ### Linting
-- **ESLint** with `react-hooks` and `react-refresh` plugins
+- **ESLint** with `react-hooks` and `react-refresh` plugins.
 
 ---
 
@@ -85,8 +85,8 @@ The application is fully multilingual (i18n-ready), animated with Framer Motion 
 ### Prerequisites
 
 Make sure you have the following installed:
-- **[Node.js](https://nodejs.org/)** (v18 or higher recommended)
-- **npm** (comes bundled with Node.js)
+- **[Node.js](https://nodejs.org/)** (v18 or higher recommended).
+- **npm** (comes bundled with Node.js).
 
 ### Installation
 
@@ -101,7 +101,7 @@ Make sure you have the following installed:
    npm install
    ```
 
-### Running the Development Server
+### Running the Development Server.
 
 ```bash
 npm run dev
@@ -161,6 +161,6 @@ celestia-mirage-dubai/
 
 <div align="center">
 
-**Celestia Mirage Dubai** — *Where Luxury Meets the Digital Age*
+**Celestia Mirage Dubai** — *Where Luxury Meets the Digital Age.*
 
 </div>
