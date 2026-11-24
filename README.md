@@ -24,22 +24,22 @@ The application is fully multilingual (i18n-ready), animated with Framer Motion 
 
 | Feature | Description |
 |---|---|
-| 🏨 **Suite Browsing** | Explore a curated catalog of luxury suites with rich imagery and detailed descriptions |
-| 📅 **Booking System** | Multi-step reservation flow with form validation powered by React Hook Form & Zod |
-| 🍽️ **Restaurants** | Showcase of world-class dining venues within the hotel |
-| 💆 **Spa & Wellness** | Dedicated spa page featuring treatments and wellness packages |
-| 🎭 **Experiences** | Curated luxury experiences and activities available to guests |
-| 🚗 **Fleet & Cars** | Premium chauffeur and vehicle service listings |
-| 🎪 **Events** | Weddings, corporate events, and private gatherings management |
-| 🤖 **AI Concierge** | Floating AI chat widget for real-time guest assistance |
-| 🌐 **Concierge Page** | Full concierge services hub for personalized guest requests |
-| 💎 **Loyalty Program** | Rewards dashboard for returning guests and members |
-| 📊 **Guest Dashboard** | Personalized dashboard for managing bookings and preferences |
-| ⭐ **Reviews** | Guest testimonials and ratings showcase |
-| 📬 **Contact** | Dynamic contact forms with departmental routing |
-| 🔐 **Admin Panel** | Secure admin dashboard with analytics and data visualizations (Recharts) |
-| 🌍 **Multilingual Support** | Full i18n integration via i18next & react-i18next |
-| 🔴 **Real-time Ready** | Socket.IO client integrated for live concierge and notifications |
+| 🏨 **Suite Browsing** | Explore a curated catalog of luxury suites with rich imagery and detailed descriptions. |
+| 📅 **Booking System** | Multi-step reservation flow with form validation powered by React Hook Form & Zod. |
+| 🍽️ **Restaurants** | Showcase of world-class dining venues within the hotel. |
+| 💆 **Spa & Wellness** | Dedicated spa page featuring treatments and wellness packages. |
+| 🎭 **Experiences** | Curated luxury experiences and activities available to guests. |
+| 🚗 **Fleet & Cars** | Premium chauffeur and vehicle service listings. |
+| 🎪 **Events** | Weddings, corporate events, and private gatherings management. |
+| 🤖 **AI Concierge** | Floating AI chat widget for real-time guest assistance. |
+| 🌐 **Concierge Page** | Full concierge services hub for personalized guest requests. |
+| 💎 **Loyalty Program** | Rewards dashboard for returning guests and members. |
+| 📊 **Guest Dashboard** | Personalized dashboard for managing bookings and preferences. |
+| ⭐ **Reviews** | Guest testimonials and ratings showcase. |
+| 📬 **Contact** | Dynamic contact forms with departmental routing. |
+| 🔐 **Admin Panel** | Secure admin dashboard with analytics and data visualizations (Recharts). |
+| 🌍 **Multilingual Support** | Full i18n integration via i18next & react-i18next. |
+| 🔴 **Real-time Ready** | Socket.IO client integrated for live concierge and notifications. |
 
 ---
 
